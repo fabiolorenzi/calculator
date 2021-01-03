@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Wallpoet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.fullMachine {
+    width: 300px;
+    margin: 100px auto;
+    background-color: #555555;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+#nameMachine {
+    font-family: "Audiowide", cursive;
+    margin-right: 20px;
+    text-align: right;
+    color: #d9ff00;
+}
+
+#nameMachine b {
+    font-weight: 3;
+    font-size: 10px;
+}
+
+#output {
+    font-family: "Wallpoet", cursive;
+    font-size: 28px;
+    color: #ffffff;
+    width: 90%;
+    height: 40px;
+    background-color: #000000;
+    margin: 10px auto 20px;
+    border-radius: 5px;
+    text-align: right;
+}
+
+#output h2 {
+    margin-right: 10px;
+}
+
+.grid {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.firstLine,
+.secondLine,
+.thirdLine,
+.fourthLine {
+    display: block;
+    width: 100%;
+}
+
+.firstLine button,
+.secondLine button,
+.thirdLine button,
+.fourthLine button {
+    font-family: "Staatliches", cursive;
+    font-size: 30px;
+    width: 25%;
+    height: 40px;
+    border: 1px solid #000000;
+}
+
+#clearB {
+    background-color: #af0000;
+    color: #ffffff;
+}
+
+.oper {
+    color: #ffffff;
+    background-color: #000e8f;
+}
